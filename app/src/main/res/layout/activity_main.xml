@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="top.glimpse.yueche.MainActivity">
+
+    <include layout="@layout/layout_title_bar"/>
+
+    <EditText
+        android:id="@+id/idcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/idcard"
+        />
+
+    <EditText
+        android:id="@+id/phonenum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phonenum"
+        />
+
+    <Button
+        android:id="@+id/sendvnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sendvnum"/>
+
+    <EditText
+        android:id="@+id/verfiyNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/verfiyNum"
+        />
+
+    <RelativeLayout
+        android:id="@+id/select_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            android:checked="false"
+            />
+
+        <CheckBox
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two"
+            android:checked="false"
+            android:layout_alignParentRight="true"
+            />
+
+        <CheckBox
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            android:checked="false"
+            android:layout_below="@id/one"
+            />
+
+        <CheckBox
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/four"
+            android:checked="false"
+            android:layout_below="@id/two"
+            android:layout_alignParentRight="true"
+            />
+
+        <CheckBox
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/five"
+            android:checked="false"
+            android:layout_below="@id/three"
+            />
+
+
+        <CheckBox
+            android:id="@+id/six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/six"
+            android:checked="false"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/four"
+            />
+
+
+        <CheckBox
+            android:id="@+id/seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seven"
+            android:checked="false"
+            android:layout_below="@id/five"
+            />
+
+
+        <CheckBox
+            android:id="@+id/eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eight"
+            android:checked="false"
+            android:layout_below="@id/six"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id = "@+id/select_coach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <Spinner
+            android:id="@+id/select_coach_spinner"
+            android:layout_width = "match_parent"
+            android:layout_height ="60dp"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start"/>
+
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars = "vertical"
+        android:fadeScrollbars="false"
+        android:hint="@string/output"
+        />
+
+
+
+
+
+
+
+
+
+</LinearLayout>

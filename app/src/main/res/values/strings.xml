@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">约车</string>
+    <string name="idcard">身份证号</string>
+    <string name="phonenum">电话号码</string>
+    <string name="sendvnum">发送验证码</string>
+    <string name="verfiyNum">验证码</string>
+    <string name="date">练车时间:</string>
+    <string name="select">选择时间</string>
+    <string name="start">启动</string>
+    <string name="output">信息输出:</string>
+
+    <string name="coach">教练</string>
+
+
+    <string name="one">07:30-08:30</string>
+    <string name="two">08:30-09:30</string>
+    <string name="three">9:30-10:30</string>
+    <string name="four">10:30-11:30</string>
+    <string name="five">13:30-14:30</string>
+    <string name="six">14:30-15:30</string>
+    <string name="seven">15:30-16:30</string>
+    <string name="eight">16:30-17:30</string>
+
+
+    <string name="title">使用须知</string>
+    <string name="con1">1.(1)首先提前3分钟左右填写身份证号码，电话号码，点击获取验证码。</string>
+    <string name="con12">（2）获取验证码后填写验证码以及其他信息,点击启动。要保证点击启动在21:00之前。</string>
+    <string name="con13">（3）约车完毕，关闭应用。</string>
+    <string name="con2">2.日期自动设定为最新一天，科目自动设定为科目二,地点自动设定为总校训练队。</string>
+    <string name="con3">3.时间的按钮为按时间约，人头的按钮为按教练约。</string>
+    <string name="con4">4.按教练约，会一次性约满4个小时。</string>
+
+
+
+
+
+
+</resources>
